@@ -19,24 +19,19 @@
 
   function start() {
 
-    if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia){
-      console.log('getUserMedia is not supported!');
-
-    }else{
-      const constraints = {
-        video : {
-          width: 640,
-          height: 480,
-          frameRate:15,
-          facingMode: 'enviroment'
-        },
-        audio : false
-      }
-
-      navigator.mediaDevices.getUserMedia(constraints)
-        .then(gotMediaStream)
-        .catch(handleError);
+    const constraints = {
+      video : {
+        width: 640,
+        height: 480,
+        frameRate:15,
+        facingMode: 'enviroment'
+      },
+      audio : false
     }
+
+    navigator.mediaDevices.getUserMedia(constraints)
+      .then(gotMediaStream)
+      .catch(handleError);
   }
 
   start();
