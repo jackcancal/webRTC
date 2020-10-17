@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>webRtc</title>
+</head>
+<body>
+<video autoplay playsinline id="player"></video>
+<script>
+  const videoplay = document.getElementById('player');
+
+  function gotMediaStream(stream){
+    videoplay.srcObject = stream;
+  }
+
+  function handleError(err){
+    console.log('getUserMedia error:', err);
+  }
+
+  function start() {
+
+    if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia){
+      console.log('getUserMedia is not supported!');
+
+    }else{
+      const constraints = {
+        video : {
+          width: 640,
+          height: 480,
+          frameRate:15,
+          facingMode: 'enviroment'
+        },
+        audio : false
+      }
+
+      navigator.mediaDevices.getUserMedia(constraints)
+        .then(gotMediaStream)
+        .catch(handleError);
+    }
+  }
+
+  start();
+</script>
+</body>
+</html>
