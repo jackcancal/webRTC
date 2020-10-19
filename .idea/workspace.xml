@@ -20,12 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4b4e5fc-db2e-467b-b347-e5f47f3d4bcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/cert/web.jackcancal.xyz_chain.crt" beforeDir="false" afterPath="$PROJECT_DIR$/cert/web.jackcancal.xyz_chain.crt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/cert/web.jackcancal.xyz_key.key" beforeDir="false" afterPath="$PROJECT_DIR$/cert/web.jackcancal.xyz_key.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/cert/web.jackcancal.xyz_chain.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/cert/web.jackcancal.xyz_key.key" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/config/env.js" beforeDir="false" />
@@ -73,9 +73,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
-  </component>
   <component name="ProjectId" id="1j5HGcaKXYTz0bEiuq1bRzsfHhR" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -95,7 +92,7 @@
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
@@ -135,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603086937577</updated>
-      <workItem from="1603086938685" duration="2399000" />
+      <workItem from="1603086938685" duration="2656000" />
     </task>
     <servers />
   </component>
@@ -154,10 +151,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="581" y="332" key="#ESLint" timestamp="1603089380264">
+    <state x="581" y="332" key="#ESLint" timestamp="1603089581596">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
-    <state x="581" y="332" key="#ESLint/0.23.1440.820/-1920.23.1920.1057/1440.23.1920.1057@0.23.1440.820" timestamp="1603089380264" />
+    <state x="581" y="332" key="#ESLint/0.23.1440.820/-1920.23.1920.1057/1440.23.1920.1057@0.23.1440.820" timestamp="1603089581596" />
     <state width="1419" height="212" key="GridCell.Tab.0.bottom" timestamp="1603088938075">
       <screen x="0" y="23" width="1440" height="820" />
     </state>
