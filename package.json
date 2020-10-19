@@ -1,8 +1,22 @@
 {
-  "name": "webRTC",
+  "name": "webrtc",
   "version": "1.0.0",
+  "description": "webRTC",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackcancal/webRTC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackcancal/webRTC/issues"
+  },
+  "homepage": "https://github.com/jackcancal/webRTC#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "serve-index": "^1.9.1"
+    "koa": "^2.13.0"
   }
 }
