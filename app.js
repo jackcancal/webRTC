@@ -19,3 +19,8 @@ const options = {
   cert: fs.readFileSync(__dirname + '/cert/web.jackcancal.xyz_chain.crt', "utf8")
 };
 https.createServer(options, app.callback()).listen(443);
+// 创建http服务，重定向到https
+http.createServer((req, res) => {
+  res.writeHead(301, { 'Location': 'https://web.jackcancal.xyz/' });
+  res.end();
+}).listen(80);
