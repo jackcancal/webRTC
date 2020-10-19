@@ -4,7 +4,6 @@ module.exports = {
     'array-bracket-spacing': 2,           // 强制数组方括号中使用一致的空格
     'block-spacing': 2,                   // 强制在单行代码块中使用一致的空格
     'brace-style': 2,                     // 强制在代码块中使用一致的大括号风格
-    'camelcase': 2,                       // 强制使用骆驼拼写法命名约定
     'comma-spacing': 2,                   // 强制在逗号前后使用一致的空格
     'comma-style': 2,                     // 强制使用一致的逗号风格
     'computed-property-spacing': 2,       // 强制在计算的属性的方括号中使用一致的空格

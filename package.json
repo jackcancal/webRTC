@@ -51,7 +51,7 @@
     "react-dom": "^16.14.0",
     "resolve": "1.15.0",
     "resolve-url-loader": "3.1.1",
-    "sass-loader": "8.0.2",
+    "sass-loader": "^10.0.3",
     "semver": "6.3.0",
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "2.3.8",
@@ -135,6 +135,7 @@
     ]
   },
   "devDependencies": {
-    "koa": "^2.13.0"
+    "koa": "^2.13.0",
+    "node-sass": "^4.14.1"
   }
 }
